@@ -1,9 +1,51 @@
 <!DOCTYPE html>
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover creative workshops in design, photography and art.">
+  <title>Studio Circle | Creative Workshops</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
+  <a class="skip-link" href="#home">Skip to main content</a>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Studio Circle home"><span class="logo-mark" aria-hidden="true">✳</span> studio circle<span class="logo-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#workshops">Workshops</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main class="container" id="home" tabindex="-1">
+    <section class="hero-grid" aria-label="Featured workshop and details">
+      <div class="spotlight">
+        <span class="eyebrow">YOUR CREATIVE SPACE · FALL 2026</span>
+        <h1>Make something <em>beautiful.</em></h1>
+        <p>Small-group workshops, big ideas. Explore new skills, meet curious people, and make room for creativity.</p>
+        <a class="button button-light" href="#workshops">Explore workshops</a>
+        <div class="spotlight-deco" aria-hidden="true">✳</div>
+      </div>
+      <aside class="quick-info" aria-label="Upcoming session information">
+        <span class="eyebrow">UP NEXT</span>
+        
+        <h2>Find your next creative spark.</h2>
+        <p>Our next featured session</p>
+        <strong><time datetime="2026-10-24">Saturday, October 24</time></strong>
+        <span class="info-divider"></span>
+        <p>Hands-on · Beginner-friendly · All supplies included</p>
+        <a href="#workshops" class="text-link">View sessions</a>
+      </aside>
+    </section>
+    <section class="workshops" id="workshops" aria-labelledby="workshops-heading">
+      <div class="section-heading"><div><span class="eyebrow">LEARN · MAKE · CONNECT</span><h2 id="workshops-heading">Upcoming workshops.</h2></div><p>Find your next favourite thing to make.</p></div>
+      <div class="cards-gallery">
+        <article class="card"><div class="card-art art-pottery"><img src="assets/pottery.svg" alt="Illustration of a terracotta pot" width="640" height="400" loading="lazy"><span class="art-label">01 / CREATE</span></div><div class="card-content"><span class="category">CERAMICS · BEGINNER</span><h3>Clay & Coffee</h3><p>Slow down and shape your own handmade ceramic piece in a welcoming studio.</p><div class="card-meta"><time datetime="2026-10-24T10:00">Oct 24 · 10:00 AM</time></div><a class="button button-dark" href="sessions.html#clay-details">Explore workshop</a></div></article>
+        <article class="card"><div class="card-art art-floral"><img src="assets/floral.svg" alt="Illustration of a pink flower with a golden centre" width="640" height="400" loading="lazy"><span class="art-label">02 / GROW</span></div><div class="card-content"><span class="category">FLORAL DESIGN · ALL LEVELS</span><h3>Bloom Studio</h3><p>Experiment with colour, texture and composition as you build a seasonal bouquet.</p><div class="card-meta"><time datetime="2026-10-31T13:00">Oct 31 · 1:00 PM</time></div><a class="button button-dark" href="sessions.html#bloom-details">Explore workshop</a></div></article>
+        <article class="card"><div class="card-art art-photo"><img src="assets/photo.svg" alt="Illustration of a purple camera on a lavender background" width="640" height="400" loading="lazy"><span class="art-label">03 / EXPLORE</span></div><div class="card-content"><span class="category">PHOTOGRAPHY · BEGINNER</span><h3>Through the Lens</h3><p>Learn to notice light, frame a story and capture everyday moments differently.</p><div class="card-meta"><time datetime="2026-11-07T11:00">Nov 7 · 11:00 AM</time></div><a class="button button-dark" href="sessions.html#lens-details">Explore workshop</a></div></article>
+      </div>
+    </section>
 
-
-<h1> welcome </h1>
-<h2> this is my page</h2>
+  </main>
+  <footer class="site-footer" id="contact">
+    <div class="footer-copy"><p>© 2026 Studio Circle</p></div>
+    <nav aria-label="Footer navigation"><a href="sessions.html">Contact / session information</a><a href="#home">Back to top ↑</a></nav>
+  </footer>
 </body>
 </html>
